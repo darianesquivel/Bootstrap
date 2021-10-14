@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.containerPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  text-transform: uppercase;
+}
+
+.formulario {
+  width: 50%;
+  text-transform: uppercase;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.formularioMedio {
+  width: 45%;
+}
+
+.cards {
+  width: 50%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.card-body {
+  background-color: rgb(102, 102, 102);
+}
+
+.card-text {
+  text-transform: uppercase;
+}
+/* MEDIA QUERY */
+
+@media (max-width: 600px) {
+  .formulario {
+    width: 90%;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+
+    width: 90%;
+  }
+}
